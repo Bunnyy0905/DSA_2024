@@ -1,0 +1,17 @@
+//Write a program to obtain the sum of the first and last digits of the given number
+import java.util.Scanner;
+
+public class SumofFirstandLastDigit {
+    public static void main(String[] args) {
+        System.out.println("Enter a number: ");
+        Scanner read = new Scanner(System.in);
+        int n = read.nextInt();
+        int last_digit = n%10;  //getting the last digit
+        int first_digit = 0;
+        while(n!=0){
+            first_digit = n;    //getting the first digit
+            n = n/10;
+        }
+        System.out.println(first_digit + last_digit);   //Sum of first and last digit
+    }
+}
