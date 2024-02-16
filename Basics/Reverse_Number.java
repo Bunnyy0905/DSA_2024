@@ -15,6 +15,6 @@ public class Reverse_Number {
         System.out.println(reverse_number);
 
     }
-} {
+} 
     
 }
