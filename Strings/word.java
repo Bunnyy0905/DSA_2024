@@ -1,6 +1,5 @@
 // If the given word s has strictly more uppercase letters, make the word written in the uppercase, otherwise - in the lowercase one.
 package Strings;
-
 import java.util.Scanner;
 
 public class word {
