@@ -1,6 +1,5 @@
 //Taking a list of elements in an array and sorting the array in ascending order
 import java.util.*;
-
 public class ArrayMethods {
     public static void main(String[] args) {
         System.out.println("Enter the number of elements you want to put in the array: ");
