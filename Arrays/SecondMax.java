@@ -1,7 +1,6 @@
 //Finding the Second Maximum number in an array
 import java.util.*;
 
-
 public class SecondMax
 {
 	public static void main (String[] args)
