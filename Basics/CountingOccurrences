@@ -1,5 +1,6 @@
 //WAP to count the number of occurrences of a particular digit in a number
 import java.util.Scanner;
+
 public class CountingOccurrences {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
